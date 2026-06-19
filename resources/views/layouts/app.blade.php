@@ -357,7 +357,7 @@ Logout
                 @if (file_exists(public_path('images/logo.png')))
                     <img src="{{ asset('images/logo.png') }}" alt="Bugema" style="width:40px;height:40px;border-radius:50%;object-fit:cover;" class="me-2">
                 @else
-                    <img src="https://i.pravatar.cc/40" alt="support" style="width:40px;height:40px;border-radius:50%;object-fit:cover;" class="me-2">
+                    <img src=" " alt="support" style="width:40px;height:40px;border-radius:50%;object-fit:cover;" class="me-2">
                 @endif
                 <div>
                     <div class="fw-semibold">Bugema Elearning</div>
